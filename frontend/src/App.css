@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right bottom,rgba(0,0,0,.7),rgba(0,0,0,.7)),url('./assets/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    color:#105404 !important;
+}
+.swiper-button-next::after,.swiper-button-prev::after{
+    font-size: 2rem !important;
+}
+
+.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm{
+    position:absolute;
+    right:0;
+}
+
+.backgroundColor::after{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+svg[class*='-MuiSvgIcon-root-MuiStepIcon-root']{
+    color:#105404 !important;
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
